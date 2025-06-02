@@ -6,7 +6,7 @@ const Header = ({ onCreate, message }) => (
     <div className="flex justify-center mb-2">
       <button
         onClick={onCreate}
-        className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+        className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 cursor-pointer"
       >
         Create a new list
       </button>

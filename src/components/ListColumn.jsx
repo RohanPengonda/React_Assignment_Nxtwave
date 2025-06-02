@@ -34,7 +34,7 @@ const ListColumn = ({
           className="bg-white p-3 mb-2 rounded-md border flex items-center justify-between"
         >
           {moveLeft && (
-            <button onClick={() => moveLeft(item)}>
+            <button className="cursor-pointer" onClick={() => moveLeft(item)}>
               <FaArrowLeft size={18} />
             </button>
           )}
@@ -43,7 +43,7 @@ const ListColumn = ({
             <p className="text-xs text-gray-600 italic">{item.description}</p>
           </div>
           {moveRight && (
-            <button onClick={() => moveRight(item)}>
+            <button className="cursor-pointer" onClick={() => moveRight(item)}>
               <FaArrowRight size={18} />
             </button>
           )}
